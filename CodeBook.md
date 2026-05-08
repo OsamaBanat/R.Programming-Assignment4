@@ -15,7 +15,7 @@ Variables:
 
 - remaining variables: Sensor measurements related to mean and standard deviation signals from accelerometer and gyroscope data.
 
-  ---
+---
   
 Data cleaning steps performed in run_analysis.R:
 
