@@ -4,6 +4,8 @@ This repository contains the files for the Coursera Getting and Cleaning Data co
 
 Files included:
 
+- CodeBook.md: Description of the variables, data, and transformations performed to clean the data.
+  
 - run_analysis.R: R script that performs the data cleaning process.
 
-- CodeBook.md: Description of the variables, data, and transformations performed to clean the data.
+- tidy_data.txt: Final tidy dataset containing the average of each variable for each activity and each subject.
