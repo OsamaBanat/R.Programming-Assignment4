@@ -7,6 +7,7 @@ The final output file is tidy_data.txt.
 The dataset contains the average of each selected variable grouped by subject and activity.
 
 ---
+
 Variables:
 
 - subject: identifies the subject who performed the activity for each window sample.
@@ -14,6 +15,14 @@ Variables:
 - y: label of type of activity performed (WALKING, SITTING, etc.).
 
 - remaining variables: Sensor measurements related to mean and standard deviation signals from accelerometer and gyroscope data.
+
+'total_acc_x': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'.
+
+'body_gyro_x': The units are radians/second.
+
+Notes: Features are normalized and bounded within [-1,1].
+
+These signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 ---
   
@@ -36,6 +45,7 @@ Data cleaning steps performed in run_analysis.R:
 8. Exported the final tidy dataset to tidy_data.txt.
 
 ---
+
 License
 
 The dataset includes measurements collected from smartphone accelerometers and gyroscopes from subjects performing different physical activities.
