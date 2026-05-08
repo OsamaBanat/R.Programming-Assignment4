@@ -26,7 +26,7 @@ mean_std <- grep("mean\\(\\)|std\\(\\)", colnames(all_data))
 data.md <- all_data[,mean_std]
 
 ##descriptive activity names translation
-all_data$subject <- activity_labels[all_data$subject,2]
+all_data$y <- activity_labels[all_data$y,2]
 
 ##Appropriately naming the labels 
 colnames (all_data) <- gsub ("mean\\(\\)", "Mean value", colnames (all_data))
