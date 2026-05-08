@@ -52,7 +52,9 @@ colnames (all_data) <- make.names(colnames (all_data), unique = T)
 
 ##creates a second, independent tidy data set
 library(dplyr)
-
 tidy_data <- all_data %>%
    group_by(subject, y) %>%
    summarize(across(everything(), mean))
+
+## export tidy_data  
+write.table(tidy_data, "tidy_data.txt", row.names = FALSE)
