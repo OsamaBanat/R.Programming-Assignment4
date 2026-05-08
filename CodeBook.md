@@ -1,5 +1,12 @@
 # CodeBook
 
+The data used in this project come from the Human Activity Recognition Using Smartphones Dataset.
+
+The final output file is tidy_data.txt.
+
+The dataset contains the average of each selected variable grouped by subject and activity.
+
+---
 Variables:
 
 - subject: identifies the subject who performed the activity for each window sample.
@@ -27,12 +34,6 @@ Data cleaning steps performed in run_analysis.R:
 7. Created a second tidy dataset containing the average of each variable for each activity and each subject.
 
 8. Exported the final tidy dataset to tidy_data.txt.
-
-9. The data used in this project come from the Human Activity Recognition Using Smartphones Dataset.
-
-The final output file is tidy_data.txt.
-
-The dataset contains the average of each selected variable grouped by subject and activity.
 
 ---
 License
